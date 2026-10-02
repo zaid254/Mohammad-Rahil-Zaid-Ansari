@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Rahil Zaid Ansari | Portfolio</title>
+    <meta name="description" content="Portfolio of Mohammad Rahil Zaid Ansari - Customer Service Associate, Tech Support, and Data Analytics Professional.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-body text-text-main font-sans antialiased selection:bg-accent selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-surface/80 backdrop-blur-md border-b border-border">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#hero" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-mono font-bold text-lg group-hover:bg-accent group-hover:text-white transition-all">
+                    MR
+                </div>
+                <span class="font-bold text-lg tracking-tight text-text-main">Mohammad Rahil</span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="#about" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">About</a>
+                <a href="#skills" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Skills</a>
+                <a href="#experience" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Experience</a>
+                <a href="#projects" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Projects</a>
+                <a href="#certifications" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Certifications</a>
+                <a href="#education" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Education</a>
+                <a href="#contact" class="nav-link text-sm font-medium text-text-muted hover:text-accent transition-colors">Contact</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-4">
+                <a href="assets/resume.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent text-white text-sm font-medium hover:bg-accent-hover transition-all shadow-sm">
+                    <i class="fa-solid fa-download text-xs"></i> Resume
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" aria-label="Toggle Menu" class="md:hidden text-text-main text-xl focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-surface border-b border-border p-6 shadow-xl flex-col gap-4 animate-fadeIn">
+            <a href="#about" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">About</a>
+            <a href="#skills" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Skills</a>
+            <a href="#experience" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Experience</a>
+            <a href="#projects" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Projects</a>
+            <a href="#certifications" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Certifications</a>
+            <a href="#education" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Education</a>
+            <a href="#contact" class="mobile-link text-base font-medium text-text-muted hover:text-accent py-2">Contact</a>
+            <a href="assets/resume.pdf" download class="flex items-center justify-center gap-2 w-full py-3 mt-2 rounded-lg bg-accent text-white text-sm font-medium">
+                <i class="fa-solid fa-download text-xs"></i> Download Resume
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-screen flex items-center pt-28 pb-16 relative overflow-hidden">
+            <div class="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
+            <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-8 flex flex-col items-start text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-mono font-medium mb-6">
+                        <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span> Available for New Opportunities
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-text-main mb-4 leading-tight">
+                        Mohammad Rahil Zaid Ansari
+                    </h1>
+                    <p class="text-xl sm:text-2xl font-medium text-accent mb-6 font-mono">
+                        Customer Service Associate & Tech Support Specialist
+                    </p>
+                    <p class="text-text-muted text-base sm:text-lg max-w-2xl mb-8 leading-relaxed">
+                        Dedicated professional with extensive L2 customer support experience, solid foundation in Computer Applications (MCA), and hands-on expertise in Data Analytics, SQL, Python, and IT Troubleshooting.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a href="#projects" class="px-6 py-3 rounded-xl bg-accent text-white font-medium text-sm hover:bg-accent-hover transition-all shadow-md inline-flex items-center gap-2">
+                            <span>View Projects</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#contact" class="px-6 py-3 rounded-xl bg-surface border border-border text-text-main font-medium text-sm hover:border-accent transition-all">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-6 mt-12 pt-8 border-t border-border w-full">
+                        <span class="text-xs font-mono text-text-muted uppercase tracking-wider">Connect:</span>
+                        <a href="mailto:mohammadrahilzaidansari@gmail.com" class="text-text-muted hover:text-accent transition-colors text-lg" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+917697479786" class="text-text-muted hover:text-accent transition-colors text-lg" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                        <span class="text-text-muted text-sm flex items-center gap-2"><i class="fa-solid fa-location-dot text-accent"></i> Hyderabad (T.G)</span>
+                    </div>
+                </div>
+                <div class="lg:col-span-4 flex justify-center">
+                    <div class="w-full max-w-sm p-6 rounded-2xl bg-surface border border-border shadow-xl relative">
+                        <div class="absolute -top-3 -right-3 px-3 py-1 rounded-full bg-accent text-white text-xs font-mono font-bold shadow-md">
+                            MCA 2025
+                        </div>
+                        <h3 class="text-lg font-bold text-text-main mb-4 border-b border-border pb-3">Quick Overview</h3>
+                        <ul class="space-y-3 text-sm text-text-muted">
+                            <li class="flex items-center justify-between">
+                                <span class="font-medium text-text-main">Degree:</span>
+                                <span>Masters in Computer Appl.</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <span class="font-medium text-text-main">Experience:</span>
+                                <span>2+ Years (L2 Support)</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <span class="font-medium text-text-main">Core Stack:</span>
+                                <span class="font-mono text-accent">Python, SQL, Power BI</span>
+                            </li>
+                            <li class="flex items-center justify-between">
+                                <span class="font-medium text-text-main">Location:</span>
+                                <span>Hyderabad, India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-surface/50 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Professional Background</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">About Me</h3>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                    <div class="lg:col-span-7 space-y-4 text-text-muted leading-relaxed text-base">
+                        <p>
+                            I am an analytical and results-oriented professional holding a <strong class="text-text-main font-semibold">Masters in Computer Applications (MCA)</strong> from Gyan Ganga Institute of Technology & Science (RGPV, 2025). 
+                        </p>
+                        <p>
+                            With strong background experience as a <strong class="text-text-main font-semibold">Remote Customer Service Associate - L2</strong> at TechnoIndia handling the Myntra Domestic Process, I excel in high-stakes problem solving, complex escalation management, and cross-functional coordination.
+                        </p>
+                        <p>
+                            My technical toolkit includes <strong class="text-text-main font-semibold">Python, SQL, Tableau, and Power BI</strong>, alongside robust IT support and desktop troubleshooting capabilities. I am eager to bridge customer-centric operational excellence with technical data analysis.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+                        <div class="p-6 rounded-xl bg-surface border border-border shadow-sm">
+                            <div class="text-accent text-2xl font-bold font-mono mb-1">2+</div>
+                            <div class="text-sm font-medium text-text-main">Years L2 Experience</div>
+                            <div class="text-xs text-text-muted mt-1">Chat & Process Support</div>
+                        </div>
+                        <div class="p-6 rounded-xl bg-surface border border-border shadow-sm">
+                            <div class="text-accent text-2xl font-bold font-mono mb-1">25%</div>
+                            <div class="text-sm font-medium text-text-main">Error Reduction</div>
+                            <div class="text-xs text-text-muted mt-1">Inventory Management Project</div>
+                        </div>
+                        <div class="p-6 rounded-xl bg-surface border border-border shadow-sm">
+                            <div class="text-accent text-2xl font-bold font-mono mb-1">40%</div>
+                            <div class="text-sm font-medium text-text-main">Time Saved</div>
+                            <div class="text-xs text-text-muted mt-1">Bank Loan System Project</div>
+                        </div>
+                        <div class="p-6 rounded-xl bg-surface border border-border shadow-sm">
+                            <div class="text-accent text-2xl font-bold font-mono mb-1">MCA</div>
+                            <div class="text-sm font-medium text-text-main">Post Graduation</div>
+                            <div class="text-xs text-text-muted mt-1">RGPV University (2025)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Technical Competencies</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Skills & Tools</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Category 1 -->
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm flex flex-col">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-3">Programming & Queries</h4>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Python</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">SQL</span>
+                        </div>
+                    </div>
+                    <!-- Category 2 -->
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm flex flex-col">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-3">Data & Analytics</h4>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Tableau</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Power BI</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">DBMS</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Data Analytics</span>
+                        </div>
+                    </div>
+                    <!-- Category 3 -->
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm flex flex-col">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-3">Tools & Platforms</h4>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">VS Code</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">MS Office</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Office 365</span>
+                        </div>
+                    </div>
+                    <!-- Category 4 -->
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm flex flex-col">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-3">IT Support & Systems</h4>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Desktop Support</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Windows OS</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">Remote Systems</span>
+                            <span class="px-3 py-1 rounded-md bg-body border border-border text-xs font-mono text-text-main">End User Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 bg-surface/50 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Professional Career</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Work Experience</h3>
+                </div>
+                <div class="max-w-4xl space-y-8">
+                    <!-- Exp Item -->
+                    <div class="p-8 rounded-2xl bg-surface border border-border shadow-sm relative pl-8 md:pl-10">
+                        <div class="absolute left-0 top-0 bottom-0 w-2 bg-accent rounded-l-2xl"></div>
+                        <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+                            <div>
+                                <h4 class="text-xl font-bold text-text-main">Remote Customer Service Associate - L2</h4>
+                                <p class="text-accent font-medium text-sm">TechnoIndia <span class="text-text-muted font-normal">(Inbound Chat, Myntra Domestic Process)</span></p>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-body border border-border text-xs font-mono font-medium text-text-muted self-start md:self-auto">
+                                May 2023 - May 2025
+                            </span>
+                        </div>
+                        <ul class="space-y-2.5 text-text-muted text-sm leading-relaxed">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Handled inbound customer chat queries related to orders, deliveries, cancellations, returns, refunds, and payments.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Provided advanced (L2-level) resolution for escalating and complex customer issues beyond L1 support.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Assisted customers with order tracking, delayed deliveries, missing items, and damaged product complaints.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Processed returns, replacements, refunds, and wallet adjustments in accordance with Myntra policies.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Investigated and resolved payment failures, refund delays, and promotional or coupon-related issues.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-accent mt-1 text-xs"></i>
+                                <span>Coordinated with internal teams (logistics, warehouse, quality check, and finance) to ensure timely issue resolution.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Practical Applications</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Featured Projects</h3>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="p-8 rounded-2xl bg-surface border border-border shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-xl font-bold text-text-main">Inventory Management System</h4>
+                                <span class="px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-mono font-medium">
+                                    Internship Project
+                                </span>
+                            </div>
+                            <p class="text-xs font-mono text-text-muted mb-4">Vector IT Solution, Jabalpur | January 6, 2025 - April 1, 2025</p>
+                            <p class="text-text-muted text-sm leading-relaxed mb-6">
+                                Re-engineered a multi-user inventory management platform enabling real-time stock updates and streamlined data handling, reducing order processing errors by 25% and improving inventory tracking efficiency. Designed and developed the user interface using HTML and CSS, with back-end data managed through DBMS.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-border flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">HTML/CSS</span>
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">DBMS</span>
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">Inventory Tracking</span>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="p-8 rounded-2xl bg-surface border border-border shadow-sm flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-xl font-bold text-text-main">Bank Management System</h4>
+                                <span class="px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-mono font-medium">
+                                    Academic Project
+                                </span>
+                            </div>
+                            <p class="text-xs font-mono text-text-muted mb-4">Katni Arts and Commerce College | 2020</p>
+                            <p class="text-text-muted text-sm leading-relaxed mb-6">
+                                Designed and implemented a Loan Eligibility System leveraging CIBIL score analysis to automate application assessments, reducing processing time by 40%, and enhancing decision accuracy while ensuring regulatory compliance. Built the front-end interface using HTML and CSS, with back-end data management handled through DBMS.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-border flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">HTML/CSS</span>
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">DBMS</span>
+                            <span class="px-2.5 py-1 rounded bg-body border border-border text-xs font-mono">CIBIL Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-20 bg-surface/50 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Credentials</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Certifications & Simulations</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-2">Python Core</h4>
+                        <p class="text-xs font-mono text-accent mb-3">LIVEWIRE, Jabalpur</p>
+                        <p class="text-text-muted text-sm">Comprehensive training and practical validation in core Python programming concepts.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-2">Data Analytics Job Simulation</h4>
+                        <p class="text-xs font-mono text-accent mb-3">Deloitte Australia (Forage, July 2025)</p>
+                        <p class="text-text-muted text-sm">Built a dashboard in Tableau and applied Excel for data classification and business insights.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center text-lg mb-4">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h4 class="text-base font-bold text-text-main mb-2">Technology Job Simulation</h4>
+                        <p class="text-xs font-mono text-accent mb-3">Deloitte Australia (Forage, July 2025)</p>
+                        <p class="text-text-muted text-sm">Completed development and coding tasks, including drafting a professional dashboard proposal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-20 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Academic Background</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Education</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <span class="px-3 py-1 rounded-full bg-body border border-border text-xs font-mono text-accent font-medium">2025</span>
+                        <h4 class="text-lg font-bold text-text-main mt-3">Masters in Computer Application (MCA)</h4>
+                        <p class="text-sm font-medium text-text-muted mt-1">Gyan Ganga Institute of Technology & Science | RGPV</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <span class="px-3 py-1 rounded-full bg-body border border-border text-xs font-mono text-accent font-medium">2020</span>
+                        <h4 class="text-lg font-bold text-text-main mt-3">Bachelors in Computer Application (BCA)</h4>
+                        <p class="text-sm font-medium text-text-muted mt-1">Katni Arts and Commerce College | RDVV</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <span class="px-3 py-1 rounded-full bg-body border border-border text-xs font-mono text-accent font-medium">2017</span>
+                        <h4 class="text-lg font-bold text-text-main mt-3">Higher Secondary Education</h4>
+                        <p class="text-sm font-medium text-text-muted mt-1">St. Paul Senior Sec. School, Katni | CBSE</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm">
+                        <span class="px-3 py-1 rounded-full bg-body border border-border text-xs font-mono text-accent font-medium">2015</span>
+                        <h4 class="text-lg font-bold text-text-main mt-3">Secondary Education</h4>
+                        <p class="text-sm font-medium text-text-muted mt-1">St. Paul Senior Sec. School, Katni | CBSE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-surface/50 border-t border-border">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Get in Touch</h2>
+                    <h3 class="text-3xl font-bold text-text-main tracking-tight">Contact Information</h3>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <a href="mailto:mohammadrahilzaidansari@gmail.com" class="p-6 rounded-2xl bg-surface border border-border shadow-sm hover:border-accent transition-all flex items-center gap-4 group">
+                        <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl group-hover:bg-accent group-hover:text-white transition-all">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <div class="text-xs font-mono text-text-muted uppercase tracking-wider">Email Me</div>
+                            <div class="text-sm font-bold text-text-main mt-0.5 break-all">mohammadrahilzaidansari@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="tel:+917697479786" class="p-6 rounded-2xl bg-surface border border-border shadow-sm hover:border-accent transition-all flex items-center gap-4 group">
+                        <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl group-hover:bg-accent group-hover:text-white transition-all">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <div class="text-xs font-mono text-text-muted uppercase tracking-wider">Call Me</div>
+                            <div class="text-sm font-bold text-text-main mt-0.5">(+91) 7697479786</div>
+                        </div>
+                    </a>
+                    <div class="p-6 rounded-2xl bg-surface border border-border shadow-sm flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <div class="text-xs font-mono text-text-muted uppercase tracking-wider">Location</div>
+                            <div class="text-sm font-bold text-text-main mt-0.5">Hyderabad (T.G)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-border bg-surface text-center">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-text-muted">
+                &copy; <span id="current-year">2026</span> Mohammad Rahil Zaid Ansari. All rights reserved.
+            </p>
+            <div class="flex items-center gap-4">
+                <a href="assets/resume.pdf" download class="text-xs font-medium text-accent hover:underline">Download Resume PDF</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
